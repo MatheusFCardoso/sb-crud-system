@@ -26,7 +26,10 @@ public class User {
 	
 	@Column(length = 45, nullable = false, name = "last_name")
 	private String lastName;
+	
+	
 
+	
 	public Integer getId() {
 		return id;
 	}
@@ -66,6 +69,7 @@ public class User {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	
 
 	@Override
 	public String toString() {
